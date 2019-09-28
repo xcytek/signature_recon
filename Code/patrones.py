@@ -32,6 +32,10 @@ class Check:
 
     @staticmethod
     def calculate_element(index):
+        """
+        En esta funcion se definen los elementos estructurales que seran
+        utilizados para realizar las transposiciones con las firmas
+        """
         element = np.zeros(shape=(3, 5, 5))
 
         if index == 1:
